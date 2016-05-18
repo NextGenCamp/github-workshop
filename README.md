@@ -1,5 +1,7 @@
 # github-workshop
 
+A great tutorial on basic Git actions can be found here: https://try.github.io/levels/1/challenges/1
+
 (Readme in progress)
 
 A workshop teaching the basics of Github with the purpose of empowering others with the necessary skills needed to push code to an open source project.
