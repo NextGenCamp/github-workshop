@@ -2,21 +2,21 @@
 
 A great tutorial on basic Git actions can be found [here](https://try.github.io/levels/1/challenges/1)
 
-(Readme in progress)
+*(Readme in progress)*
 
-## A workshop teaching the basics of Github with the purpose of empowering others with the skills needed to push code to an open source project.
+#### The basics of Github.
 
 The following instructions assume you're working on a Mac. More info. on getting setup on other operating systems can be found on Github: https://help.github.com/articles/set-up-git/#platform-mac
 
-###### Create a Github account:
+##### Create a Github account:
 
 1. Go to [Github](https://github.com/) and sign up.
 
-###### Getting setup with Git
+##### Getting setup with Git
 
 More information [here](https://help.github.com/articles/set-up-git/)
 
-###### Download and install the latest version of Git.
+##### Download and install the latest version of Git.
 
 1. Installation varies depending on your operating system. See [this page](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) for more details.
 
@@ -24,7 +24,7 @@ More information [here](https://help.github.com/articles/set-up-git/)
 
 3. If you want a more up to date version, you can also install it via a binary installer. An OSX Git installer is maintained and available for download at the [Git website](http://git-scm.com/download/mac).
 
-###### Configure Git
+##### Configure Git
 
 1. On your computer, open the Terminal application.
 
@@ -32,7 +32,7 @@ More information [here](https://help.github.com/articles/set-up-git/)
 
 3. Tell Git the email address that will be associated with your Git commits. The email you specify should be the same one found in your email settings. `git config --global user.email "YOUR EMAIL ADDRESS"`
 
-###### Authenticate with Github from Git
+##### Authenticate with Github from Git
 
 1. Authenticate with Github from Git. There are two options: connecting over HTTPS, and connecting over SSH. We're going to connect over SSH, so that Git remembers your computer and you don't have to re-enter your credentials each time.
 
@@ -56,7 +56,7 @@ More information [here](https://help.github.com/articles/set-up-git/)
 
 11. Paste your key into the "Key" field. Paste your key into the "Key" field. Paste your key into the "Key" field.
 
-###### Setup a Repository
+##### Setup a Repository
 
 For More detailed instructions [here](https://www.atlassian.com/git/tutorials/setting-up-a-repository/)
 
@@ -74,7 +74,7 @@ For More detailed instructions [here](https://www.atlassian.com/git/tutorials/se
 
 6. Type `git log` You should see your last commit displayed. Over time, as you add more commits, this is a useful command to keep track of your progress.
 
-###### Clone a Repository
+##### Clone a Repository
 
 1. Let's say you want to contribute to any of the thousands of incredible open-sourced projects on Github. Once you've found a repository you're interested in, you can pull the project code 'local,' meaning onto your computer, so you can add your two cents.
 
@@ -88,7 +88,7 @@ For More detailed instructions [here](https://www.atlassian.com/git/tutorials/se
 
 6. Any changes you make to the code in the project you just downloaded will be added to a git log that can be pushed remotely, back up to the repository you cloned from. If you push your code up to the branch you pulled from, the repository's owner will recieve what's called a pull request, which describes the changes you've made, and why they might want to integrate your work with their own. If the repository owner accepts your pull request, you'll now be considered a contributor to whatever project you've been working on!
 
-###### Create a New Branch
+##### Create a New Branch
 
 1. If you're working on a newly-intialized git directory, by default you'll be on a branch called master. 
 
@@ -102,9 +102,9 @@ For More detailed instructions [here](https://www.atlassian.com/git/tutorials/se
 
 6. Keep in mind that your new branch will pickup whatever changes are in your directory at the creation of your branch. It will also pick up from wherever you were in git tracking on the original branch.
 
-###### Fork a Repository
+##### Fork a Repository
 
-###### Most-Used Commands:
+##### Most-Used Commands:
 
 * `git fetch`: Update your local Git's tracking of what's in the remote repositories.
 
