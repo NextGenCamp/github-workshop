@@ -58,7 +58,7 @@ More information [here](https://help.github.com/articles/set-up-git/)
 
 ##### Setup a Repository
 
-For More detailed instructions [here](https://www.atlassian.com/git/tutorials/setting-up-a-repository/)
+More detailed instructions [here](https://www.atlassian.com/git/tutorials/setting-up-a-repository/)
 
 1. Open terminal and use cd to 'change directory' into the root of your project. Type `git init`. Git init generates a .git subdirectory in your project's root, containing all the necessary metadata for the repo.
 
