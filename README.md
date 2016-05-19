@@ -108,17 +108,17 @@ Most-Used Commands:
 
 git fetch: Update your local Git's tracking of what's in the remote repositories.
 
-git pull origin <branch>: Pull the most recent code from a specified branch.
+git pull origin (branch): Pull the most recent code from a specified branch.
 
-git push origin <branch>: Push code from a local (your computer) branch to a remote (Github) branch.
+git push origin (branch): Push code from a local (your computer) branch to a remote (Github) branch.
 
-git add <file>: Add a file to Git's records.
+git add (file): Add a file to Git's records.
 
-git add -A .: Add everything in the current directory to Git. Be careful, because this can often inadvertently add files you hadn't intended to commit. Not the end of the world if you do (you can always use git checkout <file> to remove them from Git's memory), but it's sometimes safer to simply add individual files.
+git add -A .: Add everything in the current directory to Git. Be careful, because this can often inadvertently add files you hadn't intended to commit. Not the end of the world if you do (you can always use git checkout (filename) to remove them from Git's memory), but it's sometimes safer to simply add individual files.
 
 git commit -m "Your commit message here": Commit added changes to Git's tracking system. Git requires a message to describe the changes, so you can better understand changes you've made in retrospect.
 
 git status: Reads out Git's current understanding of your project's progress. This command will show any modifications, additions, or deletions you've made to your project files. It should also
 
-git checkout -- <filename>: Removes a specified file from Git's tracking. 
+git checkout -- (filename): Removes a specified file from Git's tracking. 
 
