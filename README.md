@@ -82,9 +82,9 @@ More detailed instructions [here](https://www.atlassian.com/git/tutorials/settin
 
 3. On the Github repository page, you should see the option to clone using SSH or HTTPS. Choose SSH, and copy the link to your clipboard (either by using the button provided, or by simply highlighting and copying).
 
-4. Back in Terminal, type the following, replacing *repo url* with the SSH url you copied from Github. `git clone *repo-url*`. The project's code will download into a sub-directory.
+4. Back in Terminal, type the following, replacing *repo url* with the SSH url you copied from Github. `git clone repo-url`. The project's code will download into a sub-directory.
 
-5. Type the command ls into Terminal. You should see the sub-directory the project's code was downloaded into. In the future, if you'd rather create and name a new directory for the project's code to download into, you can follow the regular git clone command with a directory name of your choosing: `git clone *repo-url* your-new-directory`.
+5. Type the command ls into Terminal. You should see the sub-directory the project's code was downloaded into. In the future, if you'd rather create and name a new directory for the project's code to download into, you can follow the regular git clone command with a directory name of your choosing: `git clone repo-url your-new-directory`.
 
 6. Any changes you make to the code in the project you just downloaded will be added to a git log that can be pushed remotely, back up to the repository you cloned from. If you push your code up to the branch you pulled from, the repository's owner will recieve what's called a pull request, which describes the changes you've made, and why they might want to integrate your work with their own. If the repository owner accepts your pull request, you'll now be considered a contributor to whatever project you've been working on!
 
@@ -96,7 +96,7 @@ More detailed instructions [here](https://www.atlassian.com/git/tutorials/settin
 
 3. Open Terminal and use the cd command to change directory into your project's repository.
 
-4. Type `git checkout -b *your-new-branch-name*` That means you're checking out a new branch with the name you provide. 
+4. Type `git checkout -b your-new-branch-name` That means you're checking out a new branch with the name you provide. 
 
 5. Once you've created and checked out your new branch, you can always switch back to your master branch, or any others you may have created.
 
@@ -108,13 +108,13 @@ More detailed instructions [here](https://www.atlassian.com/git/tutorials/settin
 
 * `git fetch`: Update your local Git's tracking of what's in the remote repositories.
 
-* `git pull origin *branch-name*`: Pull the most recent code from a specified branch.
+* `git pull origin branch-name`: Pull the most recent code from a specified branch.
 
-* `git push origin *branch-name*`: Push code from a local (your computer) branch to a remote (Github) branch.
+* `git push origin branch-name`: Push code from a local (your computer) branch to a remote (Github) branch.
 
-* `git add *file-name*`: Add a file to Git's records.
+* `git add file-name`: Add a file to Git's records.
 
-* `git add -A .`: Add everything in the current directory to Git. Be careful, because this can often inadvertently add files you hadn't intended to commit. Not the end of the world if you do (you can always use git checkout *filename* to remove them from Git's memory), but it's sometimes safer to simply add individual files.
+* `git add -A .`: Add everything in the current directory to Git. Be careful, because this can often inadvertently add files you hadn't intended to commit. Not the end of the world if you do (you can always use `git checkout filename` to remove them from Git's memory), but it's sometimes safer to simply add individual files.
 
 * `git commit -m "Your commit message here"`: Commit added changes to Git's tracking system. Git requires a message to describe the changes, so you can better understand changes you've made in retrospect.
 
