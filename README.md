@@ -2,8 +2,6 @@
 
 A great tutorial on basic Git actions can be found [here](https://try.github.io/levels/1/challenges/1)
 
-*(Readme in progress)*
-
 #### The basics of Github.
 
 The following instructions assume you're working on a Mac. More info. on getting setup on other operating systems can be found on Github: https://help.github.com/articles/set-up-git/#platform-mac
