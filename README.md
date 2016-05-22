@@ -12,7 +12,7 @@ The following instructions assume you're working on a Mac. More info. on getting
 
 ##### Getting setup with Git
 
-More information [here](https://help.github.com/articles/set-up-git/)
+######*More information [here](https://help.github.com/articles/set-up-git/)*
 
 ##### Download and install the latest version of Git.
 
