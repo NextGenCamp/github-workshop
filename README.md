@@ -58,7 +58,7 @@ More information [here](https://help.github.com/articles/set-up-git/)
 
 ##### Setup a Repository
 
-More detailed instructions [here](https://www.atlassian.com/git/tutorials/setting-up-a-repository/)
+######*More detailed instructions [here](https://www.atlassian.com/git/tutorials/setting-up-a-repository/)*
 
 1. Open terminal and use cd to 'change directory' into the root of your project. Type `git init`. Git init generates a .git subdirectory in your project's root, containing all the necessary metadata for the repo.
 
@@ -76,6 +76,8 @@ More detailed instructions [here](https://www.atlassian.com/git/tutorials/settin
 
 ##### Clone a Repository
 
+######*More info [here](https://help.github.com/articles/cloning-a-repository/)*
+
 1. Let's say you want to contribute to any of the thousands of incredible open-sourced projects on Github. Once you've found a repository you're interested in, you can pull the project code 'local,' meaning onto your computer, so you can add your two cents.
 
 2. Open Terminal. Use the `cd` command to change directory to a folder where you would like the project code to download into. 
@@ -88,7 +90,27 @@ More detailed instructions [here](https://www.atlassian.com/git/tutorials/settin
 
 6. Any changes you make to the code in the project you just downloaded will be added to a git log that can be pushed remotely, back up to the repository you cloned from. If you push your code up to the branch you pulled from, the repository's owner will recieve what's called a pull request, which describes the changes you've made, and why they might want to integrate your work with their own. If the repository owner accepts your pull request, you'll now be considered a contributor to whatever project you've been working on!
 
+##### Fork a Repository
+
+######*More info [here](https://help.github.com/articles/fork-a-repo/)*
+
+1. To *fork* a repository on Github is to create a server-side clone of the project. By forking a repository, you create a copy of the original codebase, housed under your Github id. That means you can push code to your forked repository without needing your code to be approved by the owner of the original repository. If you were ever to want the code you've pushed to your forked repository to be integrated into the original remote repository, you would need to submit a pull request that would be subject to approval by the repository's owner.
+
+2. Forking a repository consits of the same steps listed above for cloning a repository. To fork a repository, login to [Github](https://github.com). Navigate to the repository you'd like to fork. 
+
+3. Under your repository name, click *clone or download*, and copy the clone URL to your clipboard.
+
+4. In Terminal, type `git clone repo-url your-new-directory`. The remote branch will be downloaded into the new directory you've created.
+
+5. To configure Git to sync your fork with the original repository (the one you forked from), type `git remote -v` and press enter. You'll see the current configured remote repository for your fork.
+
+6. Type `git remote add upstream repo-url`, and replacing *repo-url* with the repository URL you originally used to download the clone.
+
+7. To confirm the sync worked, type `git remote -v` again. You should see the URL for your fork as `origin`, and the URL for the original repository as `upstream`.
+
 ##### Create a New Branch
+
+######*More info [here](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)*
 
 1. If you're working on a newly-intialized git directory, by default you'll be on a branch called master. 
 
@@ -102,9 +124,9 @@ More detailed instructions [here](https://www.atlassian.com/git/tutorials/settin
 
 6. Keep in mind that your new branch will pickup whatever changes are in your directory at the creation of your branch. It will also pick up from wherever you were in git tracking on the original branch.
 
-##### Fork a Repository
-
 ##### Most-Used Commands:
+
+######*More info [here](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)*
 
 * `git fetch`: Update your local Git's tracking of what's in the remote repositories.
 
