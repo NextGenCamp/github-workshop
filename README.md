@@ -42,7 +42,7 @@ The following instructions assume you're working on a Mac. More info. on getting
 
 5. Ensure ssh-agent is enabled: `eval "$(ssh-agent -s)"`
 
-6 Add your SSH key to the ssh-agent: `ssh-add ~/.ssh/id_rsa` If you used an existing SSH key rather than generating a new SSH key, you'll need to replace id_rsa in the command with the name of your existing private key file. 
+6. Add your SSH key to the ssh-agent: `ssh-add ~/.ssh/id_rsa`. If you used an existing SSH key rather than generating a new SSH key, you'll need to replace id_rsa in the command with the name of your existing private key file. 
 
 7. Copy the SSH key to your clipboard: pbcopy < ~/.ssh/id_rsa.pub (If pbcopy isn't working, you can locate the hidden .ssh folder, open the file in your favorite text editor, and copy it to your clipboard.)
 
